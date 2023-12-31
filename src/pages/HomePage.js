@@ -6,5 +6,5 @@ export default function HomePage() {
         <>
         <h1>Hey from HomePage</h1>
         </>
-);
+    );
 }

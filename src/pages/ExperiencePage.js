@@ -7,5 +7,5 @@ export default function ExperiencePage() {
         <>
         <h1>Hey from ExperiencePage</h1>
         </>
-);
+    );
 }
