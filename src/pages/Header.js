@@ -10,7 +10,7 @@ class Header extends Component {
                 {/* <div className="logo"> */}
                 <div>
                     {/* <img src="./arrow1.png" alt="Market Hub" style={{width:"100px", height:"60px"}} /> */}
-                    <h1 style={{margin:"20px", padding:"20px"}}>OVIDIU MURA</h1>
+                    <h1 style={{margin:"0px", padding:"20px"}}>OVIDIU MURA</h1>
                 </div>
                 <nav>
                     <ul>

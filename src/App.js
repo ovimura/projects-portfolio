@@ -14,7 +14,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Header from './pages/Header';
 
-// import HeaderFooterPage from './pages/HeaderFooterPage';
+import HeaderFooterPage from './pages/HeaderFooterPage';
 
 import ExperiencePage from './pages/ExperiencePage';
 
@@ -37,10 +37,10 @@ function App() {
           <Route path='/about' Component={AboutPage} />
           <Route path='/contact' Component={ContactPage} />
         </Routes>
-        <footer>
+        {/* <footer>
                 <p>&copy; Copyright 2023 - All Rights Reserved</p>
-        </footer>
-        {/* <HeaderFooterPage /> */}
+        </footer> */}
+        <HeaderFooterPage />
     </div>
 
     </BrowserRouter>
