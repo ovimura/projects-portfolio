@@ -34,6 +34,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     /* max-width: 500px; */
     /* width: 40%; */
+    /* width: 400px; */
 }
 
 
@@ -79,3 +80,14 @@ ul {
     list-style-type: disc;
 }
 
+
+
+@media (max-width: 500px) {
+    /* For mobile phones: */
+    /* [class*="styled-table"] {
+      width: 300px;
+    } */
+    .styled-table {
+        width: 300px;
+    }
+  }
