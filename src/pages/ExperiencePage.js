@@ -12,20 +12,19 @@ export default function ExperiencePage() {
             <div className="content">
                 <table className="styled-table">
                     <thead>
-                        <tr><th>Company</th><th>Job Title</th><th style={{paddingLeft: '30px'}}>Project Description</th></tr>
+                        {/* <tr><th>Company</th><th>Job Title</th><th style={{paddingLeft: '30px'}}>Project Description</th></tr> */}
+                        <tr><th></th></tr>
                     </thead>
                     <tbody>
-                        <tr className="active-row">
+                    <tr className="active-row">
                             <td>
                                 <p>Apex Systems</p><p>Bank of America</p>
-                                <p>Dec 2021 - dec 2023</p>
+                                <p>Dec 2021 - Dec 2023</p>
+                                <p></p>
+                                <p>Job Titles: Application Architect, Java Developer, Python Developer, C# Developer</p>
                             </td>
-                            <td>
-                                <p>Application Architect</p>
-                                <p>Java Developer</p>
-                                <p>Python Developer</p>
-                                <p>C# Developer</p>
-                            </td>
+                        </tr>
+                        <tr className="active-row">
                             <td>
                                 <ul>
                                     <li>I designed and implemented Cybersecurity solutions for applications</li>
@@ -41,10 +40,11 @@ export default function ExperiencePage() {
                             <td>
                                 <p>PacteraEDGE</p>
                                 <p>Jan 2020 - Nov 2021</p>
+                                <p></p>
+                                <p>Job Title: Full Stack Developer</p>
                             </td>
-                            <td>
-                                <p>Full Stack Developer</p>
-                            </td>
+                        </tr>
+                        <tr className="inactive-row">
                             <td>
                                 <ul>
                                     <li>I developed a Elliptic Curve Digital Signature Algorithm for NodeJS application to secure transactions on Markaaz hosted in cloud. Url: https://markaaz.com</li>
@@ -65,14 +65,16 @@ export default function ExperiencePage() {
                                 </ul>
                             </td>
                         </tr>
+
                         <tr className="active-row">
                             <td>
                                 <p>Adidas</p>
                                 <p>Apr 2018 - Dec 2019</p>
+                                <p></p>
+                                <p>Job Title: Technology Lead</p>
                             </td>
-                            <td>
-                                <p>Technology Lead</p>
-                            </td>
+                        </tr>
+                        <tr className="active-row">
                             <td>
                                 <ul>
                                     <li>Adding value to Software Development life-cycle stages</li>
@@ -88,15 +90,15 @@ export default function ExperiencePage() {
                             </td>
                         </tr>
                         <tr className="inactive-row">
-                            <td rowSpan={3}>
+                            <td>
                                 <p>Intel</p>
                                 <p style={{width: '200px'}}>Apr 2016 - Mar 2018</p>
                             </td>
+                        </tr>
+                        <tr className="inactive-row">
                             <td>
-                                <p style={{width: '200px'}}>Python Developer</p>
+                                <p style={{width: '200px'}}>Job Title: Python Developer</p>
                                 <p>Jun 2017 - Mar 2018</p>
-                            </td>
-                            <td>
                                 <ul>
                                     <li>Implementing WinIoT automation framework in PowerShell, Python for Joule 570x, WinIoT platform.</li>
                                     <li>Installing drivers and Firmware on Joule 570x devices</li>
@@ -118,8 +120,6 @@ export default function ExperiencePage() {
                             <td>
                                 <p style={{width: '200px'}}>System Validation Engineer</p>
                                 <p>Jan 2017 - Jun 2017</p>
-                            </td>
-                            <td>
                                 <ul>
                                     <li>Implementing WinIoT automation framework in PowerShell, Python for Joule 570x, WinIoT platform.</li>
                                     <li>Installing drivers and Firmware on Joule 570x devices</li>
@@ -141,8 +141,6 @@ export default function ExperiencePage() {
                             <td>
                                 <p>Firmware Software Engineer</p>
                                 <p>Apr 2016 - Dec 2016</p>
-                            </td>
-                            <td>
                                 <ul>
                                     <li>Installing drivers and firmware in test target with Intel processors, PCH, Beagle I2C, Aardvark devices, eight relays [Power Button, Reset Button, Clear CMOS, ME Recovery, FOJ Button, Manufacture Relay, Chipset Reset, Flash Drive Relay], Saleae Logic Analyzer Device, Monitor Serial Port, Keyboard Serial Port</li>
                                     <li>Running/Troubleshooting C# test scripts in Cloud application</li>
@@ -157,10 +155,11 @@ export default function ExperiencePage() {
                             <td>
                                 <p>Nike</p>
                                 <p>Feb 2015 - Mar 2016</p>
+                                <p></p>
+                                <p>Job Title: Software Engineer</p>
                             </td>
-                            <td>
-                                <p>Software Engineer</p>
-                            </td>
+                        </tr>
+                        <tr className="active-row">
                             <td>
                                 <ul>
                                     <li>Daily stand-up meeting reporting progress on the automation and performance testing for nike.net</li>
@@ -178,10 +177,11 @@ export default function ExperiencePage() {
                             <td>
                                 <p>McKesson Health Solutions</p>
                                 <p>Jan 2012 - Feb 2015</p>
+                                <p></p>
+                                <p>Job Title: Software Engineer</p>
                             </td>
-                            <td>
-                                <p>Software Engineer</p>
-                            </td>
+                        </tr>
+                        <tr className="inactive-row">
                             <td>
                                 <ul>
                                     <li>Technical Writing</li>
@@ -205,10 +205,11 @@ export default function ExperiencePage() {
                             <td>
                                 <p>Fiserv Inc.</p>
                                 <p>Jan 2010 - Sep 2012</p>
+                                <p></p>
+                                <p>Job Title: Software Engineer</p>
                             </td>
-                            <td>
-                                <p>Software Engineer</p>
-                            </td>
+                        </tr>
+                        <tr className="active-row">
                             <td>
                                 <ul>
                                     <li>Network Deploying build versions on Tomcat and Glassfish, Linux platform – SUSE, RHEL</li>
