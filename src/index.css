@@ -20,8 +20,9 @@ code {
 }
 
 #page-wrap {
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  min-width: 400px;
 }
 
 #burger_menu {

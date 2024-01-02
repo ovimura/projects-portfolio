@@ -13,7 +13,7 @@ class Header extends Component {
                 {/* <div className="logo"> */}
                 <div>
                     {/* <img src="./arrow1.png" alt="Market Hub" style={{width:"100px", height:"60px"}} /> */}
-                    <h1 style={{margin:"0px", padding:"20px"}}>OVIDIU MURA</h1>
+                    <h1 style={{margin:"0px", padding:"20px", top: "0px"}}>OVIDIU MURA</h1>
                 </div>
                 <Menu id="burger_menu" right>
                     {/* <a className="menu-item" href="/">
@@ -43,7 +43,7 @@ class Header extends Component {
                         </li> */}
                         <li className='menu-item'>
                             {/* <Link to="/projects">Projects</Link> */}
-                            <a href="/experience">Projects</a>
+                            <a href="/projects">Projects</a>
                         </li>
                         <li>
                             {/* <Link to="/about">About</Link> */}
