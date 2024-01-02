@@ -6,7 +6,7 @@ import './css/ProjectsPage.css';
 export default function ProjectsPage() {
 
     return (
-        <dev>
+        <div>
             <h1 className="title">Projects</h1>
             <div className="content">
                 <table className="styled-table">
@@ -41,6 +41,6 @@ export default function ProjectsPage() {
                     </tbody>
                 </table>
             </div>
-        </dev>
+        </div>
     );
 }
