@@ -10,7 +10,7 @@ import {
 // import { BrowserRouter } from 'react-router-dom';
 
 import HomePage from "./pages/HomePage"
-import AboutPage from './pages/AboutPage';
+// import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Header from './pages/Header';
 
@@ -27,20 +27,19 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <div className='App'>
-      <Header />
-        <Routes>
-          <Route path='/' Component={HomePage}/>
-          {/* <Route path='/:id' Component={UserPage}/> */}
-          <Route path='/experience' Component={ExperiencePage} />
-          <Route path='/projects' Component={ProjectsPage} />
-          <Route path='/about' Component={AboutPage} />
-          <Route path='/contact' Component={ContactPage} />
-        </Routes>
-        {/* <footer>
-                <p>&copy; Copyright 2023 - All Rights Reserved</p>
-        </footer> */}
+    <div className='App' id="outer-container">
+      <div id="page-wrap">
+        <Header />
+          <Routes>
+            <Route path='/' Component={HomePage}/>
+            {/* <Route path='/:id' Component={UserPage}/> */}
+            <Route path='/experience' Component={ExperiencePage} />
+            <Route path='/projects' Component={ProjectsPage} />
+            {/* <Route path='/about' Component={AboutPage} /> */}
+            <Route path='/contact' Component={ContactPage} />
+          </Routes>
         <HeaderFooterPage />
+      </div>
     </div>
 
     </BrowserRouter>
