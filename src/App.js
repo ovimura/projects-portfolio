@@ -10,7 +10,7 @@ import {
 // import { BrowserRouter } from 'react-router-dom';
 
 import HomePage from "./pages/HomePage"
-import AboutPage from './pages/AboutPage';
+// import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Header from './pages/Header';
 
@@ -34,7 +34,7 @@ function App() {
           {/* <Route path='/:id' Component={UserPage}/> */}
           <Route path='/experience' Component={ExperiencePage} />
           <Route path='/projects' Component={ProjectsPage} />
-          <Route path='/about' Component={AboutPage} />
+          {/* <Route path='/about' Component={AboutPage} /> */}
           <Route path='/contact' Component={ContactPage} />
         </Routes>
         {/* <footer>

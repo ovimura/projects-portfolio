@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import {
     Link
 } from 'react-router-dom';
@@ -27,7 +28,7 @@ class Header extends Component {
                             <Link to="/projects">Projects</Link>
                         </li>
                         <li>
-                            <Link to="/about">About</Link>
+                            {/* <Link to="/about">About</Link> */}
                         </li>
                         <li className="lastmenu">
                             <Link to="/contact">Contact</Link>
