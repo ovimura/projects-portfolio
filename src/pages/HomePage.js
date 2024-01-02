@@ -10,7 +10,7 @@ export default function HomePage() {
         <div>
             <h1 className="title">Summary</h1>
             <div className="content">
-                <p>Experienced Software Engineer with background in cloud, automation, implementation and testing, object-oriented design, mircroservices and API development. </p>
+                <p>Experienced Software Engineer with background in cloud, automation, implementation and testing. I have experience with Object-Oriented design, mircroservices and API development. </p>
                 <p>I have the following degrees, Master in Computer Science from Portland State University, graduate Cybersecurity certificate from Portland State University, and Machine Learning Certified from Standford University. </p>
                 <p>I have experience as Java Developer working with Nike, McKesson and Fiserv. I implemented microservices and REST API using NodeJS, Java Spring and Hibernate with McKesson and also in other projects. </p>
                 <p>I am Oracle Java 6 SE Programmer certified. My recent work is building web applications with Google Cloud Platform (and Firebase User Authentication), AWS using React and NodeJS. </p>
