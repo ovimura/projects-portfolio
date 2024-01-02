@@ -15,6 +15,7 @@ export default function ContactPage() {
                         <tr><th>Email</th><th>Points</th></tr>
                     </thead> */}
                     <tbody>
+                        <tr><td><img src="" alt="Ovi"></img></td></tr>
                         <tr><td>Email:</td><td><span className="email">ovidiu.mura@yahoo.com</span></td></tr>
                         <tr className="active-row"><td>Phone:</td><td>(971) 990-9319</td></tr>
                     </tbody>
