@@ -96,13 +96,8 @@ ul {
       width: 300px;
     } */
     .styled-table {
-        width: 200px;
+        width: 150px;
     }
-
-    
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #980072;
-}
 
   }
 
