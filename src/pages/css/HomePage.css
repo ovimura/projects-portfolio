@@ -131,6 +131,9 @@
   text-align: left;
 }
 
+.ed th {
+  background-color: #884b91;
+}
 
 .styled-table th,
 .styled-table td {
