@@ -22,11 +22,11 @@ export default function HomePage() {
 
                 <table className="styled-table">
                     <thead>
-                        <tr><th>Education:</th><th>Degree</th><th>University</th><th>Date</th></tr>
+                        <tr className="ed"><th>Education:</th><th></th><th></th></tr>
+                        <tr><th>Degree</th><th>University</th><th>Date</th></tr>
                     </thead>
                     <tbody>
                         <tr className="active-row">
-                            <td></td>
                             <td>
                                 <p>Master's degree in Computer Science</p>
                             </td>
@@ -37,8 +37,6 @@ export default function HomePage() {
                         </tr>
                         <tr className="inactive-row">
                             <td>
-                            </td>
-                            <td>
                                 Graduate Certificate in Computer Security
                             </td>
                             <td>
@@ -47,8 +45,6 @@ export default function HomePage() {
                             <td>2018 - 2020</td>
                         </tr>
                         <tr className="active-row">
-                            <td>
-                            </td>
                             <td>
                                 Bachelor of Science in Computer Security
                             </td>
