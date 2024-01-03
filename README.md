@@ -79,3 +79,9 @@ Deploied into the https://vercel.com/
 www.ovidiumura.com
 
 projects-portfolio-arwf.vercel.app
+
+
+References:
+
+https://www.digitalocean.com/community/tutorials/react-react-burger-menu-sidebar
+
