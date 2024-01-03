@@ -19,8 +19,51 @@ export default function HomePage() {
                 <p>I developed and maintained complex programs in languages such as Python, C++, Java, C, C#. </p>
                 <p>I also built and successfully deployed data pipelines and machine learning pipelines with Python frameworks such as Kedro, Data Validator Tool, Kedro Streaming, Spark, TensorFlow. </p>
                 <p>I developed programs to load data into Data Lake, Blob, S3, BigQuery.</p>
+
+                <table className="styled-table">
+                    <thead>
+                        <tr><th>Education:</th><th>Degree</th><th>University</th><th>Date</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr className="active-row">
+                            <td></td>
+                            <td>
+                                <p>Master's degree in Computer Science</p>
+                            </td>
+                            <td>
+                                <p>Portland State University</p>
+                            </td>
+                            <td>2017 - 2020</td>
+                        </tr>
+                        <tr className="inactive-row">
+                            <td>
+                            </td>
+                            <td>
+                                Graduate Certificate in Computer Security
+                            </td>
+                            <td>
+                                Portland State University
+                            </td>
+                            <td>2018 - 2020</td>
+                        </tr>
+                        <tr className="active-row">
+                            <td>
+                            </td>
+                            <td>
+                                Bachelor of Science in Computer Security
+                            </td>
+                            <td>
+                                Portland State University
+                            </td>
+                            <td>2006 - 2009</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
+
+
+
         </>
     );
 }
