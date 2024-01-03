@@ -100,19 +100,16 @@ export default function ExperiencePage() {
                                 <p style={{width: '200px'}}>Job Title: Python Developer</p>
                                 <p>Jun 2017 - Mar 2018</p>
                                 <ul>
-                                    <li>Implementing WinIoT automation framework in PowerShell, Python for Joule 570x, WinIoT platform.</li>
-                                    <li>Installing drivers and Firmware on Joule 570x devices</li>
-                                    <li>Throubleshutting drivers and firmware</li>
-                                    <li>Installing Operating System on Joule 570x</li>
-                                    <li>Writing automation platform on Joule 570x using Powershell and Python technology</li>
-                                    <li>Writing programms to test memory, cpu and disk using C, and C++</li>
-                                    <li>Instlling Windows Server 2016 on Testing Lab Network</li>
-                                    <li>Installing Hyper-V virtual machines on Windows Server 2016</li>
-                                    <li>Installing Windows 10 and Ubuntu on virtual machines</li>
-                                    <li>Creating Test environment on the server and virtual machines to be able to run automation scripts written in PowerShell, Python, C, C++ and C#</li>
-                                    <li>Writing Universal Applications on WinIoT platform</li>
-                                    <li>Writing scripts to measure the performance of WinIoT platform operations</li>
-                                    <li>Writing reports to reflect the reliability and stability of the Joule 570x devices</li>
+                                    <li>Applying Behavior Driven Development</li>
+                                    <li>Implementing BIOS Automation test cases using Python, and Gherkin</li>
+                                    <li>Participate in daily stand-up meeting and reporting the work status</li>
+                                    <li>Implement unit tests with Python for BIOS Automation</li>
+                                    <li>Development tools used: PyCharm, Perforce, Smart Bear – Collaborator, Jama, TTK, Vetra Box</li>
+                                    <li>Python Developer writing automation on linux, Fedora, Windows</li>
+                                    <li>Writing REST api for failure analyzer tool</li>
+                                    <li>Develop failure analyzer tools using Object Oriented Design and Python</li>
+                                    <li>Develop tools to report results for testing so ware and analyze the failures</li>
+                                    <li>Developing automation for Windows 10 and IoT and running the tests on TWS testing engine</li>
                                 </ul>
                             </td>
                         </tr>
