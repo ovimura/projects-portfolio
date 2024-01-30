@@ -46,7 +46,7 @@ export default function HomePage() {
                         </tr>
                         <tr className="active-row">
                             <td>
-                                Bachelor of Science in Computer Security
+                                Bachelor of Science in Computer Science
                             </td>
                             <td>
                                 Portland State University
