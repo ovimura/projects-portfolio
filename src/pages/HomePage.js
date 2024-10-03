@@ -7,7 +7,7 @@ export default function HomePage() {
 
     return (
         <>
-        <div>
+        <div className="home-container">
             <h1 className="title">Summary</h1>
             <div className="content">
                 <p>Experienced Software Engineer with background in cloud, automation, implementation and testing. I have experience with Object-Oriented design, mircroservices and API development. </p>

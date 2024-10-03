@@ -7,7 +7,7 @@ export default function ExperiencePage() {
 
     return (
         <>
-        <div>
+        <div class="wrapper-experience">
             <h1 className="title">Professional Experience</h1>
             <div className="content">
                 <table className="styled-table">

@@ -19,13 +19,15 @@ body {
 
 
 header {
-  position: relative;
+  position: fixed;
   display: block;
   width: 100%;
   background: black;
   color: white;
   height: 90px;
   top: 0px;
+  z-index: 100;
+  padding-bottom: 10px;
 }
 
 nav {
