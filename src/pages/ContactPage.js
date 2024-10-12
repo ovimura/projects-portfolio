@@ -7,7 +7,7 @@ import ovi from './images/ovi.PNG';
 export default function ContactPage() {
 
     return (
-        <>
+        <div className="wrapper-contacts">
         <h1 className="title">Contact</h1>
         <div className="content">
         <img src={ovi} alt="Ovi" className="img-ovi"/>
@@ -23,6 +23,6 @@ export default function ContactPage() {
                     </tbody>
             </table>
         </div>
-        </>
+        </div>
     );
 }
