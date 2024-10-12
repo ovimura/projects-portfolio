@@ -8,7 +8,7 @@ export default function ProjectsPage() {
     return (
         <div>
             <h1 className="title">Projects</h1>
-            <div className="content">
+            <div className="content wrapper-projects">
                 <table className="styled-table">
                     <thead>
                         <tr><th></th><th></th><th style={{paddingLeft: '30px'}}></th></tr>
