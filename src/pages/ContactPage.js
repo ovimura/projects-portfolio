@@ -19,7 +19,7 @@ export default function ContactPage() {
                     <tbody>
                         {/* <tr><td></td></tr> */}
                         <tr><td>Email:</td><td><span className="email">ovidiu.mura@yahoo.com</span></td></tr>
-                        <tr className="active-row"><td>Phone:</td><td>(971) 990-9319</td></tr>
+                        <tr className="active-row"><td>Phone:</td><td>(XXX) XXX-XXXX</td></tr>
                     </tbody>
             </table>
         </div>
