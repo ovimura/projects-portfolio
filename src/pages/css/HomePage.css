@@ -32,79 +32,106 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
-    width: 36px;
-    height: 30px;
-    right: 36px;
-    top: 36px;
+    width: 32px;
+    height: 26px;
+    right: 24px;
+    top: 24px;
+    z-index: 1001;
   }
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #f9fafb;
+    border-radius: 999px;
   }
   
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #a90000;
+    background: #38bdf8;
   }
   
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 24px;
-    width: 24px;
+    height: 28px;
+    width: 28px;
   }
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #bdc3c7;
+    background: #e5e7eb;
   }
   
   /*
   Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  Note: Avoid heavy transforms here to keep animations smooth
   */
   .bm-menu-wrap {
     position: fixed;
-    height: 100%;
-    right: 30px;
+    top: 16px;
+    right: 16px;
+    height: auto;
+    max-height: calc(100% - 32px);
+    width: 260px !important;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow:
+      0 18px 45px rgba(15, 23, 42, 0.4),
+      0 0 0 1px rgba(148, 163, 184, 0.2);
   }
   
   /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
+    background: radial-gradient(circle at top left, #1f2937 0, #020617 55%, #020617 100%);
+    padding: 2.25em 1.75em 1.75em;
+    font-size: 0.95em;
     right: 30px;
+    box-sizing: border-box;
   }
   
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: #373a47;
+    fill: transparent;
   }
   
   /* Wrapper for item list */
   .bm-item-list {
-    color: #b8b7ad;
-    padding: 0.8em;
+    color: #e5e7eb;
+    padding: 0.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
   }
   
   /* Individual item */
   .bm-item {
-    display: inline-block;
-    color: #d1d1d1;
-    margin-bottom: 10px;
+    display: block;
+    color: #e5e7eb;
+    margin-bottom: 0;
     text-align: left;
     text-decoration: none;
-    transition: color 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 0.45rem 0.2rem;
+    border-radius: 19px;
+    line-height: 3.2;
+    transition:
+      color 0.18s ease-out,
+      background-color 0.18s ease-out,
+      transform 0.18s ease-out;
 }
 
 .bm-item:hover {
-  color: #ffffff;
+  color: #0f172a;
+  background-color: #38bdf8;
+  transform: translateX(4px);
 }
   
   /* Styling of overlay */
   .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(15, 23, 42, 0.55);
+    backdrop-filter: blur(3px);
   }
 
 
