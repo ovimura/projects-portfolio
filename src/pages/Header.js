@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import { slide as Menu } from 'react-burger-menu';
 
+import "./css/Header.css";
+
 // import {
 //     Link
 // } from 'react-router-dom';
@@ -48,7 +50,7 @@ class Header extends Component {
                         <li>
                             {/* <Link to="/about">About</Link> */}
                         </li>
-                        <li className="lastmenu">
+                        <li className="menu-item lastmenu">
                             <a href="/contact">Contact</a>
                             {/* <Link to="/contact">Contact</Link> */}
                         </li>

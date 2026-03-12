@@ -1,0 +1,23 @@
+#burger_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item a {
+    display: block;
+    color: #e5e7eb;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.78rem;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0.4rem 0;
+  }
+
+  .menu-item a:hover {
+    color: white;
+    transform: translateX(3px);
+    transition: all 0.18s ease-out;
+  }
