@@ -16,6 +16,64 @@ export default function ExperiencePage() {
                         <tr><th></th></tr>
                     </thead>
                     <tbody>
+                    <tr className="inactive-row">
+                            <td>
+                                <p>US Tech Solutions</p>
+                                <p>Apr 2025 - Feb 2026</p>
+                                <p></p>
+                                <p>Job Titles: Software Engineer</p>
+                            </td>
+                    </tr>
+                    <tr className="inactive-row">
+                            <td>
+                                <ul>
+                                    <li>Developed AI-powered tools and automation systems supporting large-scale e-commerce platforms.</li>
+                                    <li>Built full-stack features using React frontends and Python/Java backend services.</li>
+                                    <li>Developed agent-based AI workflows and generative AI pipelines for intelligent automation in Databricks and AWS.</li>
+                                    <li>Built and deployed MCP server tools in Docker and Kubernetes environments.</li>
+                                    <li>Implemented multi-threaded services to improve performance, reliability, and scalability.</li>
+                                    <li>Owned delivery of production services from design through deployment and operational support.</li>
+                                    <li>Design, implement and review code and requirements using Cursor and Copilot AI tools for coding and documentation.</li>
+                                </ul>
+                            </td>
+                    </tr>
+                    <tr className="active-row">
+                            <td>
+                                <p>HIGHLIGHT</p>
+                                <p>Mar 2024 - Mar 2025</p>
+                                <p></p>
+                                <p>Job Titles: Software Engineer, System Developer, Full Stack Developer</p>
+                            </td>
+                    </tr>
+                    <tr className="active-row">
+                            <td>
+                                <ul>
+                                    <li>Developed full-stack enterprise applications using React, TypeScript, Python, and SQL.</li>
+                                    <li>Built backend services, REST APIs, and workflow automation systems.</li>
+                                    <li>Designed and implemented cloud-native architectures on AWS and Azure.</li>
+                                    <li>Collaborated with AI agents to enhance code quality and performance.</li>
+                                    <li>Collaborated with product and business stakeholders to translate requirements into technical solutions.</li>
+                                    <li>Led migration of DevOps infrastructure to Azure Cloud, improving CI/CD reliability.</li>
+                                </ul>
+                            </td>
+                    </tr>
+                    <tr className="inactive-row">
+                            <td>
+                                <p>DataAnnotation.tech</p>
+                                <p>Jan 2024 - Feb 2024</p>
+                                <p></p>
+                                <p>Job Titles: Software Engineer</p>
+                            </td>
+                    </tr>
+                    <tr className="inactive-row">
+                            <td>
+                                <ul>
+                                    <li>Evaluated AI-generated code quality, correctness, and performance.</li>
+                                    <li>Designed and optimized AI chatbot and agent workflow solutions.</li>
+                                    <li>Produced high-quality Python, JavaScript/TypeScript, and SQL code reviews.</li>
+                                </ul>
+                            </td>
+                    </tr>
                     <tr className="active-row">
                             <td>
                                 <p>Apex Systems</p><p>Bank of America</p>
@@ -23,8 +81,8 @@ export default function ExperiencePage() {
                                 <p></p>
                                 <p>Job Titles: Application Architect, Java Developer, Python Developer, C# Developer</p>
                             </td>
-                        </tr>
-                        <tr className="active-row">
+                    </tr>
+                    <tr className="active-row">
                             <td>
                                 <ul>
                                     <li>I designed and implemented Cybersecurity solutions for applications</li>
@@ -35,16 +93,16 @@ export default function ExperiencePage() {
                                     <li>I configured Active Directory, Oracle, SQL Server service accounts to rotate passwords automatically and store them in HashiCorp Vault using REST APIs</li>
                                 </ul>
                             </td>
-                        </tr>
-                        <tr className="inactive-row">
+                    </tr>
+                    <tr className="inactive-row">
                             <td>
                                 <p>PacteraEDGE</p>
                                 <p>Jan 2020 - Nov 2021</p>
                                 <p></p>
                                 <p>Job Title: Full Stack Developer</p>
                             </td>
-                        </tr>
-                        <tr className="inactive-row">
+                    </tr>
+                    <tr className="inactive-row">
                             <td>
                                 <ul>
                                     <li>I developed a Elliptic Curve Digital Signature Algorithm for NodeJS application to secure transactions on Markaaz hosted in cloud. Url: https://markaaz.com</li>
