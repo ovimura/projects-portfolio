@@ -38,7 +38,7 @@ export default function ProjectsPage() {
                                 <p><a href="https://github.com/ovimura?tab=repositories" target="_blank" rel="noreferrer" >https://github.com/ovimura?tab=repositories</a> </p>
                             </td>
                         </tr>
-                        <tr className="active-row">
+                        <tr className="inactive-row">
                             <td>
                                 {/* <p>Apex Systems</p><p>Bank of America</p>
                                 <p>Dec 2021 - dec 2023</p> */}
@@ -60,6 +60,16 @@ export default function ProjectsPage() {
                                     <li>I configured Active Directory, Oracle, SQL Server service accounts to rotate passwords automatically and store them in HashiCorp Vault using REST APIs</li>
                                 </ul> */}
                                 <p><a href="https://gitlab.com/ovidiu-mura" target="_blank" rel="noreferrer" >https://gitlab.com/ovidiu-mura</a></p>
+                            </td>
+                        </tr>
+                        <tr className="active-row">
+                            <td>
+                                <p>Market Updates</p>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                <p><a href="https://marketupdates.web.app" target="_blank" rel="noreferrer" >https://marketupdates.web.app</a> </p>
                             </td>
                         </tr>
                     </tbody>
